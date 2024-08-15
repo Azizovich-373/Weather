@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.scss">
+        <title>Weather App</title>
+    </head>
+    <body>
+        <div class="container">
+            <button><img src="/arrow.svg" alt=""></button>
+            <form name="weather-form">
+                <input type="text" placeholder="Search here" name="search" id="search">
+            </form>
+            <img class="weather_logo" src="/vite.svg" alt="">
+
+            <div class="box_data">
+                <h1>loading...</h1>
+                <h2>0</h2>
+                <h3>loading...</h3>
+                <div class="cont">
+                    <div class="wind_box">
+                        <img class="wind_img" src="/wind.svg" alt="">
+                        <p class="wind">loading...</p>
+                    </div> 
+                    <div class="hum_box">
+                        <img class="hum_img" src="/hum.svg" alt="">
+                        <p class="hum">loading...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="/main.js"></script>
+    </body>
+</html>
